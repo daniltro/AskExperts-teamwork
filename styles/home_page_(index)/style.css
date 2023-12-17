@@ -13,9 +13,6 @@ a {
   text-decoration: none;
 }
 
-.page {
-}
-
 .container {
   max-width: 1200px;
   margin: auto;
@@ -24,7 +21,6 @@ a {
 
 .header {
   width: 100%;
-  
 }
 
 .header__top-bar {
@@ -71,8 +67,6 @@ a {
   align-items: center;
 }
 
-
-
 .logo {
   display: flex;
   gap: 11px;
@@ -91,8 +85,6 @@ a {
   text-decoration: none;
 }
 
-.header__nav {
-}
 .header__list {
   display: flex;
   justify-content: space-between;
@@ -178,30 +170,24 @@ a {
   gap: 27px;
 }
 
-.footer__logo {
-}
-.logo {
-}
-.footer__logo-link {
-}
-.logo__link {
-}
 .footer__socials {
   display: flex;
   gap: 7px;
 }
+
 .footer__socials-item {
   color: inherit;
 }
+
 .footer__info-box {
   display: flex;
   justify-content: space-between;
   gap: 99px;
 }
+
 .footer__list {
   white-space: nowrap;
   list-style-position: inside;
-  
 }
 
 .footer__list-title {
@@ -210,15 +196,15 @@ a {
 }
 
 .footer__list-title--position {
-  margin-left: 23px; 
+  margin-left: 23px;
 }
 
 .footer__list-title::after {
-  content: '';
+  content: "";
   width: 31.952px;
   height: 3.1px;
   border-radius: 20px;
-  background: #FFCC4A;
+  background: #ffcc4a;
   position: absolute;
   left: 0;
   bottom: -13px;
@@ -231,7 +217,7 @@ a {
 }
 
 .footer__list-item::before {
-  content: '';
+  content: "";
   width: 7px;
   height: 7px;
   position: absolute;
@@ -262,11 +248,11 @@ a {
 }
 
 .footer__address-title::after {
-  content: '';
+  content: "";
   width: 31.952px;
   height: 3.1px;
   border-radius: 20px;
-  background: #FFCC4A;
+  background: #ffcc4a;
   position: absolute;
   left: 0;
   bottom: -13px;
@@ -280,6 +266,7 @@ a {
   line-height: 147.5%;
   padding-bottom: 4px;
 }
+
 .footer__button {
   inline-size: 214px;
   block-size: 59px;
@@ -299,10 +286,10 @@ a {
 
 .footer__copyright {
   padding: 20px 351px 26px;
-  color: #FFF;
-font-family: Lato, sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 147.5%; 
-border-top: 1px  solid #707070;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 147.5%;
+  border-top: 1px solid #707070;
 }
