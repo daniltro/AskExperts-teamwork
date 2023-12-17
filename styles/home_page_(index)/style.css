@@ -16,17 +16,26 @@ a {
 .page {
 }
 
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
 /* --------------HEADDER STYLES START---------------------- */
 
 .header {
+  width: 100%;
+  
 }
 
 .header__top-bar {
   background: #181818;
-  padding: 18px 361px;
+}
+
+.header__top-bar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 18px 0;
 }
 
 .header__top-bar-item {
@@ -51,13 +60,18 @@ a {
 }
 
 .header__main {
-  padding: 40px 360px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 40px 0;
   background: rgba(27, 27, 27, 0.91);
   backdrop-filter: blur(10.5px);
 }
+
+.header__main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 
 .logo {
   display: flex;
@@ -126,7 +140,7 @@ a {
 /* --------------FOOTER STYLES START-------------------- */
 
 .footer {
-  padding: 126px 360px 0;
+  padding: 126px 0 0;
   background: url(../../images/header__footer/footer__bg.jpg) lightgray 50% /
     cover no-repeat;
   position: relative;
