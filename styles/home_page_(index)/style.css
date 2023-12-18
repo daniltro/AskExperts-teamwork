@@ -111,15 +111,12 @@ a {
   color: inherit;
 }
 
-.header__button {
-  padding: 8px 41px 8px 10px;
+.button {
   display: flex;
   align-items: center;
   gap: 11px;
   border-radius: 42px;
-  background: #fff;
   border: none;
-  color: #353535;
   font-family: Lato, sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -127,7 +124,212 @@ a {
   cursor: pointer;
 }
 
+.header__button {
+  padding: 8px 41px 8px 10px;
+  background: #fff;
+  color: #353535;
+}
+
 /* --------------HEADDER STYLES END---------------------- */
+
+/* ---------------BANNER STYLES START------------------------ */
+.banner {
+  position: relative;
+  padding: 194px  197px;
+  background: url(../../images/home_page_index/banner-section/Banner\ Image.jpg) 0 -140px / cover no-repeat;
+}
+
+.banner__description {
+  padding: 55px 58px;
+  border-radius: 29px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5.5px);
+  inline-size: 552px;
+  
+}
+
+.banner__description-content {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.banner__title {
+  color: #181818;
+font-family: Cabin;
+font-size: 50px;
+font-weight: 700;
+line-height: 116%; 
+}
+
+.banner__subtitile {
+  color: #595566;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 147.5%;
+margin-bottom: 21px;
+}
+
+.banner__description-button-box {
+  display: flex;
+  gap: 13px;
+}
+
+.banner__our-button {
+  padding: 16px 33px;
+  background: #181818;
+  color: #FFF;
+}
+
+.banner__book-meeteng-button {
+  padding: 8px 10px;
+}
+
+/* ---------------BANNER STYLES END------------------------ */
+
+
+/* ------------------------CLIENT STYLE START------------------- */
+
+.clients {
+  padding: 13px 37px 100px 78px; 
+}
+
+.clients__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+  opacity: .51;
+}
+/* ------------------------CLIENT STYLE END------------------- */
+
+/* ------------------------ABOUT STYLES START------------------- */
+.about {
+  padding-bottom: 174px;
+  display: flex;
+  gap: 65px;
+}
+.about__content {
+  width: 420.204px;
+}
+.about__title {
+}
+.section__title {
+}
+.section__subtitle {
+  border-radius: 20px;
+  display: inline-block;
+  padding: 2px 12px;
+  color: #181818;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 147.5%;
+  letter-spacing: 2.32px;
+  text-transform: uppercase;
+}
+
+.about__subtitle {
+  background: #FFCC4A;
+  margin-bottom: 22px;
+}
+
+.section__title {
+  color: #181818;
+  font-family: Cabin, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 116%;
+}
+
+.about__title {
+  margin-bottom: 18px;
+}
+
+.about__description {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  font-family: Lato, sans-serif;
+}
+.about__description-accent-info {
+  color: #181818;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 147.5%;
+  inline-size: 373px;
+  margin-bottom: 3px;
+}
+.about__description-info {
+  color: #595566;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 147.5%;
+  margin-bottom: 54px;
+}
+
+.about__achievements {
+  display: flex;
+  gap: 40px;
+  padding: 17px 0 19px;
+  border-top: 1px solid #D8D8D8;
+  border-bottom: 1px solid #D8D8D8;
+  width: 381px;
+}
+.about__achievements-item {
+  width: 170.208px;
+  height: 94.019px;
+  border-radius: 15px;
+  background: #F6F6F6;
+  padding: 18px 23px 16px;
+  position: relative;
+}
+
+.about__achievements-item::after {
+  content: '';
+  width: 1px;
+  height: 90px;
+  background-color: #D8D8D8;
+  position: absolute;
+  bottom: 0;
+  right: -20px;
+}
+
+.about__achievements-item:last-child:after {
+  display: none;
+} 
+
+.about__achievements-item-info {
+  display: flex;
+  gap: 10px;
+  color: #181818;
+}
+.about__achievements-item-title {
+  font-family: Cabin, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 116%;
+}
+.about__achievements-item-description {  
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 147.5%;
+}
+
+.about__image {
+  padding: 281px 432px 41px 46px;
+}
+.market__experience {
+}
+.market__experience-meaning {
+}
+.market__experience-description {
+}
+
+
+/* ------------------------ABOUT STYLES END------------------- */
 
 /* --------------FOOTER STYLES START-------------------- */
 
@@ -293,3 +495,4 @@ a {
   line-height: 147.5%;
   border-top: 1px solid #707070;
 }
+
