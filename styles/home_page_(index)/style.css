@@ -213,10 +213,11 @@ a {
   width: 100%;
 }
 .about__title {
+  margin-top: 22px;
 }
 .section__title {
 }
-.section__subtitle {
+.section__subtitle-text {
   border-radius: 20px;
   display: inline-block;
   padding: 2px 12px;
@@ -229,12 +230,12 @@ a {
   text-transform: uppercase;
 }
 
-.about__subtitle {
+.about__subtitle-text {
   background: #ffcc4a;
   margin-bottom: 22px;
 }
 
-.section__title {
+.section__title-text {
   color: #181818;
   font-family: Cabin, sans-serif;
   font-size: 45px;
@@ -322,7 +323,6 @@ a {
   position: relative;
 }
 
-
 .about__image-wrapper {
   position: absolute;
   top: 24px;
@@ -336,7 +336,7 @@ a {
 .market__experience {
   padding: 44px 28px 44px 48px;
   border-radius: 20px;
-  background: #FFF;
+  background: #fff;
   box-shadow: -5px 22px 26px 0px rgba(95, 95, 95, 0.25);
   display: flex;
   align-items: center;
@@ -346,17 +346,17 @@ a {
 }
 
 .market__experience::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 22px;
   left: 20px;
   background: url(../../images/home_page_index/about/about-experience.svg);
   width: 95px;
-height: 95px;
+  height: 95px;
 }
 
 .market__experience::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -145px;
   left: -45px;
@@ -367,7 +367,7 @@ height: 95px;
 }
 
 .market__experience-meaning {
-  font-family: Cabin,sans-serif;
+  font-family: Cabin, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 116%;
@@ -381,6 +381,263 @@ height: 95px;
 
 /* ------------------------ABOUT STYLES END------------------- */
 
+/* ------------------------SERVICES STYLES START--------------- */
+.services {
+  padding: 170px 0 167px;
+  background: #f5f5f5;
+}
+.services__title {
+  padding: 0 209px;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.services__subtitle-text {
+  background: #4eaf4e;
+  padding: 0 12px;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.services__cards {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.services__card {
+  padding: 49px 47px;
+  border-radius: 20px;
+  background: #ebebeb;
+  width: 387.003px;
+}
+
+.services__card-icon {
+  display: block;
+  position: relative;
+  left: -16px;
+  margin-bottom: 25px;
+}
+
+.services__card:nth-child(2) img {
+  left: -24px;
+}
+
+.services__card:nth-child(5) img {
+  left: -20px;
+  margin-bottom: 28px;
+}
+
+.services__card:nth-child(6) img {
+  left: -25px;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  color: #181818;
+  font-family: Cabin, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 116%;
+  margin-bottom: 10px;
+}
+
+.card__description {
+  color: #595566;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 147.5%;
+}
+
+.accent-card {
+  background: #181818;
+}
+
+.accent-card-title {
+  color: #fff;
+}
+
+.accent-card-description {
+  color: #fff;
+}
+/* ------------------------SERVICES STYLES END--------------- */
+/* -------------------------PROCESS STYLES START-------------- */
+
+.process {
+  padding: 150px 0 152px;
+  display: flex;
+  gap: 117px;
+}
+.process__steps {
+  width: 507.892px;
+}
+.process-steps__title {
+}
+.section__title {
+}
+.process-steps__subtitle-text {
+  background: #4eaf4e;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.section__subtitle-text {
+}
+.process-steps__title-text {
+  margin-bottom: 16px;
+}
+.section__title-text {
+}
+.process__steps-description {
+  color: #595566;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 147.5%;
+  margin-bottom: 40px;
+}
+.process__steps-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+.process__steps-list-item {
+  display: flex;
+  gap: 16px;
+  color: #181818;
+  font-family: Cabin, sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 116%;
+  padding-top: 28px;
+  border-top: 1px solid #c1c1c1;
+}
+
+.process__steps-list-order {
+  color: #181818;
+  font-family: Cabin;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116%; /* 30.16px */
+  position: relative;
+}
+
+.process__steps-list-inner {
+}
+
+.process__steps-list-order {
+  background: url(../../images/home_page_index/process/process-step-1.svg)
+    no-repeat;
+  inline-size: 52.332px;
+  block-size: 52.332px;
+  padding: 11px 21px 9px 20px;
+}
+
+.green--bg {
+  background: url(../../images/home_page_index/process/process-step-2.svg)
+    no-repeat;
+  color: #fff;
+}
+
+.black--bg {
+  background: url(../../images/home_page_index/process/process-step-3.svg)
+    no-repeat;
+  color: #fff;
+}
+
+.process__steps-list-image {
+}
+
+.procces__steps-list-item-content {
+}
+
+.process__steps-list-item-title {
+  color: #181818;
+  font-family: Cabin, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 116%;
+  margin-bottom: 10px;
+}
+
+.process__steps-list-item-subtitle {
+  color: #595566;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 147.5%;
+  padding-right: 100px;
+}
+
+.process__experience {
+  width: 573.724px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.process__experience__subtitle-text {
+  background: #ffcc4a;
+  margin-bottom: 8px;
+  padding-left: 15px;
+}
+.section__subtitle-text {
+}
+.process__experience__title-text {
+}
+.section__title-text {
+}
+
+.process__experience-description-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 10px;
+}
+
+.process__experience-description {
+  color: #595566;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 147.5%;
+}
+
+.process__experience-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 14px;
+  list-style: none;
+}
+.process__ecpetience-card {
+  padding: 33px 23px;
+  border-radius: 20px;
+  border: 1px solid #eaeaea;
+  background: #fafafa;
+}
+.process__ecpetience-card-image {
+  margin-bottom: 20px;
+}
+.process__ecpetience-card-title {
+  color: #181818;
+  font-family: Cabin, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 116%;
+  margin-bottom: 7px;
+}
+.process__ecpetience-card-subtitle {
+  color: #595566;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 147.5%; 
+}
+
+/* -------------------------PROCESS STYLES END-------------- */
 /* --------------FOOTER STYLES START-------------------- */
 
 .footer {
