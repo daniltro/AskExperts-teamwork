@@ -40,7 +40,7 @@ body {
     border-radius: 29px;
     color: #181818;
     font-family: 'Lato', sans-serif;
-    margin-left: 365px;
+    margin-left: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,12 +64,12 @@ body {
   }
 
   .cover__text-black {
+    font-family: 'Cabin', sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
-    line-height: 116%;
-    max-width: 275px;
-    margin-left: 60px;
+    max-width: 290px;
+    margin-left: 58px;
   }
 
   .blog {
@@ -93,7 +93,7 @@ body {
   .blog__list {
     display: flex;
     color: #FFF;
-    font-family: Cabin;
+    font-family: 'Cabin', sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -137,7 +137,7 @@ body {
 
   .button-yellow {
     position: absolute; 
-    top: 50px; 
+    top: 56px; 
     right: 10px; 
     transform: translate(-50%, -50%); 
     width: 50px; height: 50px;
@@ -145,7 +145,7 @@ body {
     background-image: linear-gradient(154deg, #FFE9B1 -8.69%, #DDA003 120.59%);
     border: none;
     color: #181818;
-    font-family: Cabin;
+    font-family: 'Cabin', sans-serif;
     font-size: 53px;
     display: flex;
     justify-content: center;
@@ -154,6 +154,9 @@ body {
   }
 
   .blog__list_bottom-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
     position: absolute;
     bottom: 25px;
     left: 25px;
@@ -162,7 +165,7 @@ body {
 
   .blog__list_bottom-text p{
     color: #FFF;
-    font-family: Cabin;
+    font-family: 'Cabin', sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -171,7 +174,7 @@ body {
 
   .blog__list_bottom-text p:last-child {
     color: #FFCC4A;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -192,7 +195,7 @@ body {
 
   .form__left_text-proccess {
     color: #181818;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -207,7 +210,7 @@ body {
 
   .form__left_text-title {
     color: #181818;
-    font-family: Cabin;
+    font-family: 'Cabin', sans-serif;
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -219,7 +222,7 @@ body {
   .form__left-text {
     width: 400px;
     color: #595566;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -252,7 +255,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     color: #595566;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -261,25 +264,32 @@ body {
 
   .form__call-address p:nth-child(2){
     color: #181818;
-    font-family: Cabin;
+    font-family: 'Cabin', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 116%; /* 23.2px */
     width: 262px;
+    padding-bottom: 6px;
+  }
+
+  .form__call-address-last {
+    gap: 6px;
+    margin-top: -8px;
   }
 
   .form__right {
     color: #181818;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 147.5%; /* 23.6px */
     display: flex;
     flex-direction: column;
-    gap: 26px;
+    gap: 28px;
     max-width: 689px;
+    margin-top: -4px;
   }
 
   .form__right-top,
@@ -306,7 +316,7 @@ body {
     gap: 10px;
     width: 320px;
     color: #A9A9A9;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -323,13 +333,13 @@ body {
     display: flex;
     width: 666px;
     height: 157px;
-    padding: 22px 33px 111px 33px;
+    padding: 20px 33px 111px 33px;
     border-radius: 22px;
     border: 1px solid #C1C1C1;
     background: #FFF;
     overflow: hidden; 
     color: #A9A9A9;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -343,7 +353,7 @@ body {
     border-radius: 42px;
     background: #181818;
     color: #FFF;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -405,7 +415,7 @@ body {
   
   .logo__link {
     color: #fff;
-    font-family: Cabin, sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 105%;
@@ -425,11 +435,11 @@ body {
     font-weight: 400;
     line-height: 160%;
     list-style: none;
-    list-style-image: url(../../images/header__footer/list-marker.svg);
+    list-style-image: url(./img/list-marker.svg);
   }
   
   .header__list-item:hover {
-    list-style-image: url(../../images/header__footer/list-marker-hover.svg);
+    list-style-image: url(./img/list-marker-hover.svg);
     color: #5ab612;
   }
   
@@ -465,7 +475,7 @@ body {
     position: relative;
     z-index: 0;
     color: #fff;
-    font-family: Cabin, sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 116%;
