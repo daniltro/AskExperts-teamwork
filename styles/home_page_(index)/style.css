@@ -775,6 +775,232 @@ height: 344.05px;
 
 
 /* -------------------------GALLERY STYLES END------------------ */
+
+/*----------------------------- TESTIMONIAL STYLES START-------------------------------- */
+
+.testimonial {
+  inline-size: 654px;
+  margin: auto;
+  margin-top: -280px;
+  padding: 0 0 93px;
+  position: relative;
+}
+.testimonial__title {
+  text-align: center;
+}
+.section__title {
+}
+.testimonial__subtitle-text {
+  background: #4EAF4E;
+  color: #fff;
+  margin-bottom: 23px;
+}
+.section__subtitle-text {
+}
+.testimonial__title-text {
+  color: #CECECE;
+  text-align: center;
+  font-family: Cabin;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; 
+  margin-bottom: 33px;
+}
+
+.testimonial__accent {
+  color: #181818;
+}
+
+.section__title-text {
+}
+.testimonial__slider {
+  position: relative;
+}
+.testimonial__slide {
+}
+
+.testimonial__slide-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 97px;
+}
+
+.testimonial__slide-image-box {
+  margin: auto;
+  margin-bottom: 27px;
+  width: 210px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.testimonial__slide-image {
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.testimonial__slide-info {
+  text-align: center;
+}
+.testimonials__slide-name {
+  color: #181818;
+  font-family: Cabin, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 116%;
+  }
+
+.testimonial__slide-position {
+  color: #4EAF4E;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 147.5%;
+}
+
+.testimonial__button {
+  padding: 8px 25px 8px 8px;
+  width: 125px;
+  height: 60px;
+  position: absolute;
+  inset-block-start: 53%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.testimonial--prev-button {
+  inset-inline-start: 0;
+}
+
+.testimonial--next-button {
+  inset-inline-end: 3px;
+  padding: 8px 8px 8px 25px;
+}
+
+/* ----------------SLIDER STYLES START------------------ */
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+/* ----------------SLIDER STYLES END------------------ */
+
+/*------------- TESTIMONIAL STYLES END----------------- */
+
+/* ---------------BOOK-NOW STYLES START-------------------- */
+
+.book-now {
+  border-radius: 30px;
+  background: #181818;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 90px;
+  block-size: 525px;
+  overflow: hidden;
+  position: relative;
+}
+
+.book-now::before {
+  content: '';
+  position: absolute;
+  inline-size: 327.802px;
+  block-size: 327.803px;
+  background: url(../../images/home_page_index/book-now/Pattern-bg.svg);
+  inset-inline-start: 590px;
+  inset-block-start: 75px;
+}
+
+.book-now::after {
+  content: '';
+  position: absolute;
+  inset-inline-start: 616px;
+  inset-block-start: 117px;
+  inline-size: 130.655px;
+  block-size: 145.369px;
+  border-radius: 17px;
+  background: #4EAF4E;
+}
+
+.book-now__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-inline-size: 427px;
+}
+
+.book-now__content-box {
+  margin-block-end: 21px;
+}
+
+
+.book-now__subtitle-text {
+  color: #FFF;
+  background: #4EAF4E;
+  margin-bottom: 8px;
+}
+
+.book-now__title-text {
+  color: #FFF;
+  font-family: Cabin, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 116%; 
+  margin-block-end: 5px;
+}
+
+.book-now__accent-text {
+  color: #727272;
+}
+
+.book-now__description {
+  color: #FFF;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 147.5%;
+}
+
+.book-now__button {
+  padding: 19px 21px;
+  background: #FFCC4A;
+  display: flex;
+  gap: 5px;
+}
+
+.book-now__image {
+  position: relative;
+}
+
+.book-now__image-box {
+  position: relative;
+  inset-block-start: 140px;
+  inset-inline-end: 33px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  z-index: 1;
+  overflow: hidden;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.book-now__image::after {
+  content: '';
+  position: absolute;
+  inset-block-end: 180px;
+  inset-inline-start: 190px;
+  inline-size: 245px;
+  block-size: 345px;
+  background: url(../../images/home_page_index/book-now/book-now3.2.jpg);
+  border-bottom-right-radius: 30px;
+}
+
+/* ---------------BOOK-NOW STYLES END-------------------- */
+
 /* --------------FOOTER STYLES START-------------------- */
 
 .footer {
@@ -837,12 +1063,14 @@ height: 344.05px;
 }
 
 .footer__list-title {
+  list-style: none;
   margin-bottom: 24px;
   position: relative;
+  font-size: 20px;
 }
 
 .footer__list-title--position {
-  margin-left: 23px;
+  margin-left: 20px;
 }
 
 .footer__list-title::after {
