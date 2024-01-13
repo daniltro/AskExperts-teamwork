@@ -128,6 +128,8 @@ button {
   font-weight: 600;
   line-height: 160%;
   cursor: pointer;
+  block-size: fit-content;
+  inline-size: fit-content;
 }
 
 .header__button {
@@ -895,6 +897,7 @@ height: 344.05px;
 /* ---------------BOOK-NOW STYLES START-------------------- */
 
 .book-now {
+  margin-block-end: 169px;
   border-radius: 30px;
   background: #181818;
   display: flex;
@@ -1000,6 +1003,236 @@ height: 344.05px;
 }
 
 /* ---------------BOOK-NOW STYLES END-------------------- */
+
+/* -----------------BLOG STYLES START--------------------- */
+
+.blog {
+  padding: 178px 0;
+  background: #F5F5F5;
+}
+.blog__header {
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: 35px;
+  align-items: center;
+}
+.blog__title {
+}
+.blog__subtitle-text {
+  color: #FFF;
+  background: #4EAF4E;
+  margin-block-end: 7px;
+}
+
+.blog__title-text {
+  max-inline-size: 508px;
+}
+
+
+.blog__button {
+  padding: 16px 37px;
+  background: #FFCC4A;
+}
+.blog__content {
+  display: flex;
+  gap: 36px;
+  justify-content: space-between;
+}
+.blog__card {
+}
+.blog__card-image {
+  border-radius: 20px;
+  margin-block-end: 25px;
+}
+.blog__card-title {
+  color: #181818;
+  font-family: Cabin, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 116%;
+  margin-block-end: 12px;
+  max-inline-size: 562px;
+}
+.blog__card-description {
+  color: #595566;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 147.5%;
+  max-inline-size: 545px;
+  margin-block-end: 10px;
+}
+.blog__card-experts {
+  padding: 14px 0;
+  border-block-start: 1px solid #C1C1C1;
+  border-block-end: 1px solid #C1C1C1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.blog__card-experts-content {
+  display: flex;
+  align-items: center;
+  color: #595566;
+  font-family: Lato, sans-serif;
+  line-height: 147.5%;
+}
+
+.blog__card-experts-avatar {
+  border-radius: 50%;
+  object-position: center;
+  margin-inline-end: 8px;
+}
+.blog__card-experts-name {
+  margin-inline-end: 22px;
+  position: relative;
+}
+
+.blog__card-experts-name::after {
+  content: '';
+  inline-size: 1px;
+  block-size: 14px;
+  background-color: #595566;
+  position: absolute;
+  inset-inline-end: -20px;
+  inset-block-start: 5px;
+}
+
+.blog__card-experts-date {
+  padding-inline-start: 22px;
+  
+}
+.blog__card-more-button {
+  padding: 16px 40px;
+  background: #181818;
+  color: #FFF;
+}
+
+
+/* -----------------BLOG STYLES END--------------------- */
+
+/* -----------------PROCCESS-CONTACT STYLES START------------ */
+.proccess-contact{
+  padding: 150px 0 100px;
+  display: flex;
+  gap: 104px;
+}
+
+.proccess-contact__content {
+  max-inline-size: 420px;
+  
+}
+.proccess-contact__title {
+  margin-block-end: 40px;
+}
+
+.proccess-contact__subtitle-text {
+  padding: 1px 15px;
+  background: #FFCC4A;
+  margin-block-end: 7px;
+}
+
+.proccess-contact__title-text {
+  margin-block-end: 13px;
+}
+
+.proccess-contact__description {
+  max-inline-size: 407px;
+  color: #595566;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 147.5%;
+}
+
+.proccess-contact__list {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+.proccess-contact__list-item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.proccess-contact__list-item-icon {
+  display: flex;
+  align-items: center;
+}
+
+.process-contact__list-item-content {
+  
+}
+.proccess-contact__list-item-title {
+  color: #595566;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 147.5%; 
+  margin-block-end: 5px;
+}
+.proccess-contact__list-item-description {
+  color: #181818;
+  font-family: Cabin, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 116%; 
+  max-inline-size: 262px;
+  }
+
+  .proccess-contact__form {
+    max-inline-size: 669px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .proccess-contact__label-wrapper {
+    display: flex;
+    gap: 24px;
+  }
+  .proccess-contact__label-wrapper:first-child .proccess-contact__form-label .proccess-contact__form-input{
+    padding: 28px 33px 24px;
+  }
+  .procces-contact__form-input-title {
+    display: block;
+    color: #181818;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    line-height: 147.5%;
+    margin-block-end: 8px;
+  }
+  .proccess-contact__form-input {
+    padding: 26px 33px;
+    border-radius: 54px;
+    border: 1px solid #C1C1C1;
+    inline-size: 318px;
+  }
+
+  .proccess-contact__form-label:nth-child(2n) .proccess-contact__form-input
+  {
+    inline-size: 324px;
+  }
+
+  .proccess-contact__form-input::placeholder {
+    font-size: 16px;
+  }
+
+  .input--message {
+    padding: 27px 33px 113px 33px;
+    inline-size: 666px;
+    border-radius: 22px;
+  }
+
+  .proccess-contact__form-button {
+    padding: 16px 27px;
+    color: #FFF;
+    background: #181818;
+  }
+  
+
+
+/* -----------------PROCCESS-CONTACT STYLES END------------ */
 
 /* --------------FOOTER STYLES START-------------------- */
 
