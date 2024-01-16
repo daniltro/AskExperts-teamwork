@@ -1,0 +1,528 @@
+/*--------------- SECTION SERVICES START----------------- */
+body {
+	color: var(--black);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 116%;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+}
+
+ul {
+	list-style: none;
+}
+
+:root {
+	--yellow: #FFCC4A;
+	--green: #4EAF4E;
+	--black: #181818;
+	--gray: #303030;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.title {
+	font-family: 'Cabin', sans-serif;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 116%;
+	margin-bottom: 11px;
+}
+
+.services {
+	background-image: url(../../images/services/services_slider.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: cover;
+	padding: 178px 0;
+}
+
+.services__text-box {
+	display: inline-block;
+	padding: 48px 60px 58px 60px;
+	background-color: rgba(255, 255, 255, 0.85);
+	border-radius: 29px;
+	max-width: 788px;
+}
+
+.pointer {
+	display: inline-block;
+	letter-spacing: 2.32px;
+	line-height: 200%;
+	text-transform: uppercase;
+	padding: 0px 15px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+
+.services_pointer {
+	background-color: var(--yellow);
+	margin-bottom: 21px;
+}
+
+.services__title {
+	font-family: Cabin, sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 116%;
+}
+
+/*--------------- SECTION SERVICES END----------------- */
+
+/*--------------- SECTION SERVICES-LIST START----------------- */
+
+.services-list {
+	padding-top: 170px;
+	padding-bottom: 170px;
+}
+
+.services-list__title {
+	max-width: 780px;
+	text-align: center;
+	margin-bottom: 38px;
+}
+
+.services-list_pointer {
+	color: #fff;
+	background-color: var(--green);
+}
+
+.services__text-block {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	align-items: center;
+}
+
+.services-cards__item {
+	border-radius: 20px;
+	background: #EBEBEB;
+	padding: 49px 47px;
+	max-width: 387px;
+}
+
+.services-cards__title {
+	font-family: 'Cabin', sans-serif;
+	color: var(--black);
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.services-cards__text {
+	color: var(--black);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 116%;
+	font-family: 'Lato', sans-serif;
+}
+
+.services-cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;	
+}
+
+.active-text {
+	color: #fff;
+}
+
+.active-card {
+	background-color: var(--gray);
+}
+
+/*--------------- SECTION SERVICES-LIST END----------------- */
+
+/*--------------- SECTION PROCESS START----------------- */
+
+.process {
+	margin-top: 144px;
+	margin-bottom: 144px;
+}
+
+.process__wrapper {
+	display: flex;
+	gap: 84px;
+}
+
+.process__image-block {
+	position: relative;
+}
+
+.process__image {
+	position: relative;
+	width: 680px;
+	height: 455px;
+	border-radius: 20px;
+	z-index: 2;
+}
+
+.process__image-sqare {
+	position: absolute;
+	top: -40px;
+	right: -30px;
+}
+
+.process__image-decor {
+	position: absolute;
+	bottom: -30px;
+	left: -60px;
+	z-index: 1;
+}
+
+.process_pointer {
+	background-color: var(--yellow);
+	margin-bottom: 21px;
+}
+
+.process__title {
+	font-family: 'Cabin', sans-serif;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 116%;
+	margin-bottom: 39px;
+}
+
+.process__list {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	margin-left: 50px;
+}
+
+.process__list-title {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 116%;
+	margin-bottom: 10px;
+}
+
+.process__list-text {
+	color: #595566;
+}
+
+.process__list-item {
+	position: relative;
+}
+
+.wallet::after {
+	position: absolute;
+	content: '';
+	background-image: url(../../images/services/banking-icon.svg);
+	width: 30px;
+	height: 26px;
+	left: -45px;
+	top: 0;
+}
+
+.gear::after {
+	position: absolute;
+	content: '';
+	background-image: url(../../images/services/gear-icon.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 30px;
+	left: -45px;
+	top: 0;
+}
+
+.step::after {
+	position: absolute;
+	content: '';
+	background-image: url(../../images/services/step-icon.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 20px;
+	left: -45px;
+	top: 0;
+}
+
+/*--------------- SECTION PROCESS END----------------- */
+
+/*--------------- SECTION PRICING START----------------- */
+
+.pricing {
+	padding-top: 149px;
+	padding-bottom: 149px;
+}
+
+.pricing__text-block {
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+	align-items: center;
+}
+
+
+.pricing_pointer {
+	display: inline-block;
+	background: var(--green);
+	margin-top: 22px;
+	color: #fff;
+	align-items: center;
+}
+
+.pricing__title {
+	font-family: 'Cabin', sans-serif;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 116%;
+	text-align: center;
+}
+
+.pricing__card {
+	
+	padding: 21px 22px 40px 22px;
+}
+
+.pricing__card-top {
+	position: relative;
+	border-radius: 20px;
+	background: var(--gray);
+	width: 323px;
+	height: 234px;
+	overflow: hidden;
+}
+
+.pricing__card-title {
+	padding-top: 32px;
+	padding-left: 28px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 116%;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.pricing__card-text {
+	padding-left: 28px;
+	color: #fff;
+	width: 257px;
+	margin-bottom: 32px;
+}
+
+.pricing__card-price-number {
+	font-family: 'Cabin', sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 116%;
+	color: #fff;
+	padding-left: 28px;
+}
+
+.pricing__card-pointer {
+	color: #fff;
+	background: #3E3E3E;
+}
+
+.pricing__card-price {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.pricing__image-decor {
+	position: absolute;
+	top: -40px;
+	right: 21px;
+	width: 93px;
+	height: 93px;
+}
+
+.pricing__list {
+	margin-top: 33px;
+	margin-bottom: 33px;
+	padding-left: 29px;
+	margin-left: 30px;
+	color: #595566;
+	font-weight: 400;
+	line-height: 251.5%;
+}
+
+.pricing__list-item {
+	position: relative;
+}
+
+.pricing__cards {
+	display: flex;
+	gap: 49px;
+}
+
+
+.pricing__list-item::before {
+	position: absolute;
+	content: '';
+	background-image: url(../../images/services/list-arrow.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 21px;
+	height: 21px;
+	left: -35px;
+	top: 10px;
+}
+
+.pricing__card-btn {
+	border: 1px solid #D6D6D6;
+	padding: 15px 100px;
+	border-radius: 42px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 160%;
+	color: #181818;
+}
+
+.pricing-active {
+	background: var(--green);
+}
+
+.pricing-btn-active {
+	background: var(--yellow);
+}
+
+/*--------------- SECTION PRICING END----------------- */
+
+/*--------------- SECTION PROCCESS START----------------- */
+
+.proccess {
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.proccess_pointer {
+	background-color: #FFCC4A;
+	margin-bottom: 7px;
+}
+
+.proccess__title {
+	font-family: 'Cabin', sans-serif;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 116%;
+	margin-bottom: 13px;
+}
+
+.proccess__text {
+	color: #595566;
+	line-height: 147.5%;
+	margin-bottom: 38px;
+	max-width: 405px;
+}
+
+.contact-list {
+	display: flex;
+	flex-direction: column;
+	gap: 56px;
+}
+
+.contact-list__item {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+.contact-list__indication {
+	color: #595566;
+	line-height: 147.5%;
+}
+
+.contact-list__contacts {
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 116%;
+	max-width: 260px;
+}
+
+.process__wrapper {
+	display: flex;
+	gap: 91px;
+}
+
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+}
+
+.proccess__form {
+	display: flex;
+	width: 60%;
+	gap: 24px;
+	flex-wrap: wrap;
+}
+
+input {
+	background-color: transparent;
+	font-family: inherit;
+	border-radius: 54px;
+	border: 1px solid #C1C1C1;
+	padding: 22px 33px;
+	width: 318px;
+	height: 68px;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+input:focus {
+	outline: none;
+	border: 2px solid #949393;
+}
+
+
+#message {
+	width: 666px;
+	height: 157px;
+	border-radius: 22px;
+	padding: 22px 80px 111px 33px;
+	margin-bottom: 22px;
+}
+
+.proccess__form-item {
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+	align-items: start;
+}
+
+.form-input::placeholder {
+	color: #A9A9A9;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 147.5%;
+}
+
+.message__btn {
+	display: inline-block;
+	border: none;
+	border-radius: 42px;
+	color: #fff;
+	background-color: #181818;
+	padding: 16px 27px;
+	align-items: center;
+	cursor: pointer;
+}
+
+
+
+
