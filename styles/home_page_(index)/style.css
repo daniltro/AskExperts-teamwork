@@ -530,7 +530,6 @@ button {
   position: relative;
 }
 
-
 .process__steps-list-order {
   background: url(../../images/home_page_index/process/process-step-1.svg)
     no-repeat;
@@ -582,7 +581,6 @@ button {
   padding-left: 15px;
 }
 
-
 .process__experience-description-wrapper {
   display: flex;
   flex-direction: column;
@@ -630,7 +628,7 @@ button {
   font-family: Lato, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 147.5%; 
+  line-height: 147.5%;
 }
 
 /* -------------------------PROCESS STYLES END-------------- */
@@ -649,12 +647,13 @@ button {
 }
 
 .gallery__title-box::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 16px 0;
-  background: url(../../images/home_page_index/gallery/galleryBG.png) no-repeat center / cover;
+  background: url(../../images/home_page_index/gallery/galleryBG.png) no-repeat
+    center / cover;
   z-index: -1;
-  opacity: .15;
+  opacity: 0.15;
 }
 
 .gallery__title {
@@ -662,13 +661,13 @@ button {
 }
 
 .gallery__subtitle-text {
-  color: #FFF;
-  background: #4EAF4E;
+  color: #fff;
+  background: #4eaf4e;
   margin-bottom: 8px;
 }
 
 .gallery__title-text {
-  color: #FFF;
+  color: #fff;
 }
 
 .gallery__button {
@@ -678,15 +677,14 @@ button {
   font-size: 18px;
   font-weight: 600;
   line-height: 160%;
-  background: #FFCC4A;
+  background: #ffcc4a;
   white-space: nowrap;
-  }
-
+}
 
 .gallery__cards {
   padding: 25px;
   border-radius: 30px;
-  background: #FAFAFA;
+  background: #fafafa;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
@@ -698,7 +696,7 @@ button {
   border-radius: 30px;
   overflow: hidden;
   width: 366.479px;
-height: 344.05px;
+  height: 344.05px;
 }
 
 .first-card {
@@ -706,17 +704,16 @@ height: 344.05px;
 }
 
 .first-card::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: rgba(24, 24, 24, 0.75);
 }
 
-
 .gallery-card__button {
   inline-size: 54px;
   block-size: 54px;
-  background: linear-gradient(154deg, #FFE9B1 -8.69%, #DDA003 120.59%);
+  background: linear-gradient(154deg, #ffe9b1 -8.69%, #dda003 120.59%);
   border-radius: 50%;
   border: none;
   color: #181818;
@@ -747,20 +744,19 @@ height: 344.05px;
 }
 
 .gallery__card-name {
-  color: #FFF;
+  color: #fff;
   font-family: Cabin, sans-serif;
   font-size: 25px;
   font-weight: 600;
   line-height: 116%;
-
 }
-.gallery__category {color: #FFCC4A;
+.gallery__category {
+  color: #ffcc4a;
   font-family: Lato, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 147.5%;
 }
-
 
 /* -------------------------GALLERY STYLES END------------------ */
 
@@ -779,19 +775,19 @@ height: 344.05px;
 }
 
 .testimonial__subtitle-text {
-  background: #4EAF4E;
+  background: #4eaf4e;
   color: #fff;
   margin-bottom: 23px;
 }
 
 .testimonial__title-text {
-  color: #CECECE;
+  color: #cecece;
   text-align: center;
   font-family: Cabin;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 116%; 
+  line-height: 116%;
   margin-bottom: 33px;
 }
 
@@ -836,7 +832,7 @@ height: 344.05px;
 }
 
 .testimonial__slide-position {
-  color: #4EAF4E;
+  color: #4eaf4e;
   font-family: Lato, sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -891,7 +887,7 @@ height: 344.05px;
 }
 
 .book-now::before {
-  content: '';
+  content: "";
   position: absolute;
   inline-size: 327.802px;
   block-size: 327.803px;
@@ -901,14 +897,14 @@ height: 344.05px;
 }
 
 .book-now::after {
-  content: '';
+  content: "";
   position: absolute;
   inset-inline-start: 616px;
   inset-block-start: 117px;
   inline-size: 130.655px;
   block-size: 145.369px;
   border-radius: 17px;
-  background: #4EAF4E;
+  background: #4eaf4e;
 }
 
 .book-now__content {
@@ -923,17 +919,17 @@ height: 344.05px;
 }
 
 .book-now__subtitle-text {
-  color: #FFF;
-  background: #4EAF4E;
+  color: #fff;
+  background: #4eaf4e;
   margin-bottom: 8px;
 }
 
 .book-now__title-text {
-  color: #FFF;
+  color: #fff;
   font-family: Cabin, sans-serif;
   font-size: 45px;
   font-weight: 700;
-  line-height: 116%; 
+  line-height: 116%;
   margin-block-end: 5px;
 }
 
@@ -942,7 +938,7 @@ height: 344.05px;
 }
 
 .book-now__description {
-  color: #FFF;
+  color: #fff;
   font-family: Lato, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -951,7 +947,7 @@ height: 344.05px;
 
 .book-now__button {
   padding: 19px 21px;
-  background: #FFCC4A;
+  background: #ffcc4a;
   display: flex;
   gap: 5px;
 }
@@ -973,7 +969,7 @@ height: 344.05px;
 }
 
 .book-now__image::after {
-  content: '';
+  content: "";
   position: absolute;
   inset-block-end: 180px;
   inset-inline-start: 190px;
@@ -989,7 +985,7 @@ height: 344.05px;
 
 .blog {
   padding: 178px 0;
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 .blog__header {
   display: flex;
@@ -999,8 +995,8 @@ height: 344.05px;
 }
 
 .blog__subtitle-text {
-  color: #FFF;
-  background: #4EAF4E;
+  color: #fff;
+  background: #4eaf4e;
   margin-block-end: 7px;
 }
 
@@ -1010,7 +1006,7 @@ height: 344.05px;
 
 .blog__button {
   padding: 16px 37px;
-  background: #FFCC4A;
+  background: #ffcc4a;
 }
 
 .blog__content {
@@ -1045,8 +1041,8 @@ height: 344.05px;
 
 .blog__card-experts {
   padding: 14px 0;
-  border-block-start: 1px solid #C1C1C1;
-  border-block-end: 1px solid #C1C1C1;
+  border-block-start: 1px solid #c1c1c1;
+  border-block-end: 1px solid #c1c1c1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1072,7 +1068,7 @@ height: 344.05px;
 }
 
 .blog__card-experts-name::after {
-  content: '';
+  content: "";
   inline-size: 1px;
   block-size: 14px;
   background-color: #595566;
@@ -1083,19 +1079,17 @@ height: 344.05px;
 
 .blog__card-experts-date {
   padding-inline-start: 22px;
-  
 }
 .blog__card-more-button {
   padding: 16px 40px;
   background: #181818;
-  color: #FFF;
+  color: #fff;
 }
-
 
 /* -----------------BLOG STYLES END--------------------- */
 
 /* -----------------PROCCESS-CONTACT STYLES START------------ */
-.proccess-contact{
+.proccess-contact {
   padding: 150px 0 100px;
   display: flex;
   gap: 104px;
@@ -1103,7 +1097,6 @@ height: 344.05px;
 
 .proccess-contact__content {
   max-inline-size: 420px;
-  
 }
 .proccess-contact__title {
   margin-block-end: 40px;
@@ -1111,7 +1104,7 @@ height: 344.05px;
 
 .proccess-contact__subtitle-text {
   padding: 1px 15px;
-  background: #FFCC4A;
+  background: #ffcc4a;
   margin-block-end: 7px;
 }
 
@@ -1146,7 +1139,7 @@ height: 344.05px;
   color: #595566;
   font-family: Lato, sans-serif;
   font-size: 16px;
-  line-height: 147.5%; 
+  line-height: 147.5%;
   margin-block-end: 5px;
 }
 .proccess-contact__list-item-description {
@@ -1154,63 +1147,62 @@ height: 344.05px;
   font-family: Cabin, sans-serif;
   font-size: 20px;
   font-weight: 600;
-  line-height: 116%; 
+  line-height: 116%;
   max-inline-size: 262px;
-  }
+}
 
-  .proccess-contact__form {
-    max-inline-size: 669px;
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-  }
+.proccess-contact__form {
+  max-inline-size: 669px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
 
-  .proccess-contact__label-wrapper {
-    display: flex;
-    gap: 24px;
-  }
+.proccess-contact__label-wrapper {
+  display: flex;
+  gap: 24px;
+}
 
-  .proccess-contact__label-wrapper:first-child .proccess-contact__form-label .proccess-contact__form-input{
-    padding: 28px 33px 24px;
-  }
-  
-  .procces-contact__form-input-title {
-    display: block;
-    color: #181818;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    line-height: 147.5%;
-    margin-block-end: 8px;
-  }
+.proccess-contact__label-wrapper:first-child
+  .proccess-contact__form-label
   .proccess-contact__form-input {
-    padding: 26px 33px;
-    border-radius: 54px;
-    border: 1px solid #C1C1C1;
-    inline-size: 318px;
-  }
+  padding: 28px 33px 24px;
+}
 
-  .proccess-contact__form-label:nth-child(2n) .proccess-contact__form-input
-  {
-    inline-size: 324px;
-  }
+.procces-contact__form-input-title {
+  display: block;
+  color: #181818;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 147.5%;
+  margin-block-end: 8px;
+}
+.proccess-contact__form-input {
+  padding: 26px 33px;
+  border-radius: 54px;
+  border: 1px solid #c1c1c1;
+  inline-size: 318px;
+}
 
-  .proccess-contact__form-input::placeholder {
-    font-size: 16px;
-  }
+.proccess-contact__form-label:nth-child(2n) .proccess-contact__form-input {
+  inline-size: 324px;
+}
 
-  .input--message {
-    padding: 27px 33px 113px 33px;
-    inline-size: 666px;
-    border-radius: 22px;
-  }
+.proccess-contact__form-input::placeholder {
+  font-size: 16px;
+}
 
-  .proccess-contact__form-button {
-    padding: 16px 27px;
-    color: #FFF;
-    background: #181818;
-  }
-  
+.input--message {
+  padding: 27px 33px 113px 33px;
+  inline-size: 666px;
+  border-radius: 22px;
+}
 
+.proccess-contact__form-button {
+  padding: 16px 27px;
+  color: #fff;
+  background: #181818;
+}
 
 /* -----------------PROCCESS-CONTACT STYLES END------------ */
 
